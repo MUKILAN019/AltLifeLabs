@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "npm i && npm i --only=dev && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
