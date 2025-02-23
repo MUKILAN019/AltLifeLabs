@@ -101,4 +101,5 @@ npm run dev
 - Used **Raw SQL Queries** (`$queryRaw`) for complex analytics queries.
 
 
-
+### *Deployed Link:*
+ **Check it out:** https://altlifelabs-production.up.railway.app/
