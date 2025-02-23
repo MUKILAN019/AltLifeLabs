@@ -48,7 +48,7 @@ const SignUp: React.FC = () => {
     const { confirm_password, ...dataToSend } = formData;
 
     try {
-      const res = await fetch("http://localhost:5000/user/register", {
+      const res = await fetch("/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
