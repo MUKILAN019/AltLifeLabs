@@ -45,6 +45,20 @@ This project is a **Library Management System** developed for **ALT LIFE LAB TAS
 - Designed with **Tailwind CSS** for responsiveness.
 - Works smoothly across **mobile, tablet, and desktop**.
 
+## 🔑 Try This Admin Credentials  
+
+To test the **Admin Panel**, use the following credentials:  
+
+**Email:** `admin@altlife.com`  
+**Password:** `admin@2025`  
+
+✅ **Admin Capabilities:**  
+- **View all borrow requests**  
+- **Accepted or Reject book requests**  
+- **Access special admin-only features in the status panel**  
+
+🔗 **Login to the system and navigate to the admin panel to manage book issuances.**
+
 ---
 
 ## 🛠 Setup & Installation
