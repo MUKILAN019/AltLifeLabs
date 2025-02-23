@@ -90,7 +90,7 @@ const Home: React.FC = () => {
     return (
         <div className="p-8">
             <div className="flex justify-between items-center mb-6">
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Library Dashboard</h1>
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7747ff]">Library Dashboard</h1>
                 <div className="flex justify-between sm:w-full gap-3 md:w-1/2  lg:w-96">
                     <Link to='/pending'><button className="btn btn-outline btn-warning">Pending Books</button></Link>
                     <Link to='/status'><button className="btn btn-outline btn-success">Status</button></Link>
