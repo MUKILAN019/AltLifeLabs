@@ -72,25 +72,24 @@ Ensure you have the following installed:
 ```sh
 git clone https://github.com/MUKILAN019/AltLifeLabs.git
 cd AltLifeLabs
+npm i
+cd client
+npm i
+cd ..
 ```
 
 
-### **4️⃣ Run Database Migrations**
+### **2️⃣ Run Database Migrations**
 ```sh
 npx prisma migrate dev --name init
 ```
 
-### **5️⃣ Start the Backend**
+### **3️⃣ Start the Project**
+- In root directory:
 ```sh
-cd server
 npm run dev
 ```
 
-### **6️⃣ Start the Frontend**
-```sh
-cd client
-npm run dev
-```
 
 
 ### **2️⃣ Role-Based Access Control (RBAC)**
