@@ -100,7 +100,7 @@ npm run dev
 - Used **Prisma ORM** for structured queries.
 - Used **Raw SQL Queries** (`$queryRaw`) for complex analytics queries.
 
-### *Deployed Link:*
-**Check it:** https://altlifelabs-production.up.railway.app/home
+### **Deployed Link:**
+**Check it:** https://altlifelabs.up.railway.app/
 
 
