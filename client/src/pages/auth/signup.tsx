@@ -73,7 +73,7 @@ const SignUp: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen px-4">
+    <div className="flex items-center justify-center min-h-screen px-4 bg-[#1D232A]">
       <div className="max-w-sm w-full bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold text-[#1e0e4b] text-center">
           Welcome to <span className="text-[#7747ff]">Alt Life Lab Project</span>

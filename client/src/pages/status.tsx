@@ -104,7 +104,7 @@ const Status: React.FC = () => {
     console.log(adminDetails)
     
     return (
-        <div className="p-8">
+        <div className="p-8 min-h-screen bg-[#1D232A]">
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">Borrow Status</h1>
 
             {loading && <p className="text-gray-500">Loading borrow details...</p>}

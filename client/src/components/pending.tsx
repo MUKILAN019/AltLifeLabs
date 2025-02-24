@@ -49,7 +49,7 @@ const Pending: React.FC = () =>{
      },[])
 
      return(
-      <div className="p-8">
+      <div className="p-8 min-h-screen px-4 bg-[#1D232A]">
       <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-center">
           Pending Book Returns
       </h1>
