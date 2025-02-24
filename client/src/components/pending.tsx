@@ -50,7 +50,7 @@ const Pending: React.FC = () =>{
 
      return(
       <div className="p-8 min-h-screen px-4 bg-[#1D232A]">
-      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-center">
+      <h1 className="text-xl text-white sm:text-2xl md:text-3xl font-bold mb-4 text-center">
           Pending Book Returns
       </h1>
 
@@ -71,10 +71,10 @@ const Pending: React.FC = () =>{
               <tbody>
                   {pendingReturns.map((borrow) => (
                       <tr key={borrow.issuance_id} className="border">
-                          <td className="border p-2 text-center">{borrow.issuance_id}</td>
-                          <td className="border p-2 text-center">{borrow.book_id}</td>
-                          <td className="border p-2 text-center">{borrow.members.mem_name}</td>
-                          <td className="border p-2 text-center">{borrow.members.mem_email}</td>
+                          <td className="border p-2 text-center text-white">{borrow.issuance_id}</td>
+                          <td className="border p-2 text-center text-white">{borrow.book_id}</td>
+                          <td className="border p-2 text-center text-white">{borrow.members.mem_name}</td>
+                          <td className="border p-2 text-center text-white">{borrow.members.mem_email}</td>
                           <td className="border p-2 text-center text-red-500 font-bold border-amber-50">
                               {new Date(borrow.target_return_date).toLocaleDateString()}
                           </td>

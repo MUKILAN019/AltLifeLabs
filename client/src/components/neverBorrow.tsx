@@ -40,7 +40,7 @@ const NeverBorrow: React.FC = () => {
 
     return (
         <div className="p-8">
-            <h1 className="text-2xl font-bold text-center mb-4">Books That Were Never Borrowed</h1>
+            <h1 className="text-2xl font-bold text-center mb-4 text-white">Books That Were Never Borrowed</h1>
 
             {loading && <p className="text-gray-500 text-center">Loading books...</p>}
             {error && <p className="text-red-500 text-center">{error}</p>}
@@ -56,8 +56,8 @@ const NeverBorrow: React.FC = () => {
                     <tbody>
                         {books.map((book) => (
                             <tr key={book.book_id}className="border">
-                                <td className="border p-2 text-center">{book.book_name}</td>
-                                <td className="border p-2 text-center">{book.book_publisher}</td>
+                                <td className="border p-2 text-center text-white">{book.book_name}</td>
+                                <td className="border p-2 text-center text-white">{book.book_publisher}</td>
                             </tr>
                         ))}
                     </tbody>

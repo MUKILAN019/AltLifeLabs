@@ -62,13 +62,13 @@ const OutstandingBooks: React.FC = () => {
                     <tbody>
                         {books.map((book, index) => (
                             <tr key={index} className="border">
-                                <td className="border p-2 text-center">{book.mem_name}</td>
-                                <td className="border p-2 text-center">{book.book_name}</td>
-                                <td className="border p-2 text-center">{new Date(book.issuance_date).toLocaleDateString()}</td>
-                                <td className="border p-2 text-center  font-bold">
+                                <td className="border p-2 text-center text-white">{book.mem_name}</td>
+                                <td className="border p-2 text-center text-white">{book.book_name}</td>
+                                <td className="border p-2 text-center text-white">{new Date(book.issuance_date).toLocaleDateString()}</td>
+                                <td className="border p-2 text-center font-bold text-white">
                                     {new Date(book.target_return_date).toLocaleDateString()}
                                 </td>
-                                <td className="border p-2 text-center">{book.book_publisher}</td>
+                                <td className="border p-2 text-center text-white">{book.book_publisher}</td>
                             </tr>
                         ))}
                     </tbody>

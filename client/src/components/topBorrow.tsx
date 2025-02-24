@@ -37,7 +37,7 @@ const TopBorrowed: React.FC = () =>{
     },[])
     return(
         <div className="p-8">
-        <h1 className="text-2xl font-bold text-center mb-4">Top 10 Most Borrowed Books</h1>
+        <h1 className="text-2xl font-bold text-center mb-4 text-white">Top 10 Most Borrowed Books</h1>
 
         {loading && <p className="text-gray-500 text-center">Loading top borrowed books...</p>}
         {error && <p className="text-red-500 text-center">{error}</p>}
@@ -54,7 +54,7 @@ const TopBorrowed: React.FC = () =>{
                 <tbody>
                     {books.map((book, index) => (
                         <tr key={index} className="border">
-                            <td className="border p-2 text-center">{book.book_name}</td>
+                            <td className="border p-2 text-center text-white">{book.book_name}</td>
                             <td className="border p-2 text-center font-bold text-green-600">
                                 {book.borrow_time}
                             </td>
