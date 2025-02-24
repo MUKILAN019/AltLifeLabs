@@ -40,7 +40,7 @@ const Status: React.FC = () => {
 
         const fetchBorrowDetails = async () => {
             try {
-                const response = await fetch("http://localhost:5000/lib/borrow/details", {
+                const response = await fetch("/lib/borrow/details", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
@@ -66,7 +66,7 @@ const Status: React.FC = () => {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/lib/admin/borrow/all", {
+            const response = await fetch("/lib/admin/borrow/all", {
                 headers: { Authorization: `Bearer ${token}` },
             });
 
@@ -83,7 +83,7 @@ const Status: React.FC = () => {
     
     const updateStatus = async (issuance_id: number, status: string) => {
         try {
-            await fetch(`http://localhost:5000/lib/admin/borrow/update/${issuance_id}`, {
+            await fetch(`/lib/admin/borrow/update/${issuance_id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",

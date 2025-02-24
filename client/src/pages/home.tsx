@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Modal from "../utilis/modal";
 import { Link } from "react-router-dom";
-import Pending from "../components/pending";
+// import Pending from "../components/pending";
 import NeverBorrow from "../components/neverBorrow";
 import OutstandingBooks from "../components/outstandingBook";
 import TopBorrowed from "../components/topBorrow";
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const response = await fetch("http://localhost:5000/lib/books", {
+                const response = await fetch("/lib/books", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 if (!response.ok) throw new Error("Failed to fetch books");
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
 
         const fetchStatus = async () => {
             try {
-                const response = await fetch("http://localhost:5000/lib/borrow/status", {
+                const response = await fetch("/lib/borrow/status", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 if (!response.ok) throw new Error("Failed to fetch status");
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
 
     const handleRequest = async (book_id: number) => {
         try {
-            const response = await fetch("http://localhost:5000/lib/borrow", {
+            const response = await fetch("/lib/borrow", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
     return (
         <div className="p-8">
             <div className="flex justify-between items-center mb-6">
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Library Dashboard</h1>
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7747ff]">Library Dashboard</h1>
                 <div className="flex justify-between sm:w-full gap-3 md:w-1/2  lg:w-96">
                     <Link to='/pending'><button className="btn btn-outline btn-warning">Pending Books</button></Link>
                     <Link to='/status'><button className="btn btn-outline btn-success">Status</button></Link>

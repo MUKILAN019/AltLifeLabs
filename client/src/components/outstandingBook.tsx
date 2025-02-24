@@ -17,7 +17,7 @@ const OutstandingBooks: React.FC = () => {
         const fetchOutstandingBooks = async () => {
             try {
                 const token = localStorage.getItem("token");
-                const res = await fetch("http://localhost:5000/query/outstanding-books", {
+                const res = await fetch("/query/outstanding-books", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
