@@ -37,3 +37,17 @@ Please make sure to provide valid database credentials for the database server a
 [2025-02-26 13:07:13] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
 [2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
 [2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 15:43:34] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Can't reach database server at `host.docker.internal:6004`
+
+Please make sure your database server is running at `host.docker.internal:6004`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 15:43:41] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Can't reach database server at `host.docker.internal:6004`
+
+Please make sure your database server is running at `host.docker.internal:6004`. | At: Invalid `prisma.member.findUnique()` invocation:

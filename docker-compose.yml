@@ -1,0 +1,47 @@
+version: "3.8"
+
+services:
+  client:
+    image: altclient
+    container_name: client
+    ports:
+      - "80:80"  
+    depends_on:
+      - server
+    networks:
+      - app_network
+
+  server:
+    image: altserver
+    container_name: server
+    ports:
+      - "6003:6003"  
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql://admin:admin123@db:5432/mydatabase  
+    networks:
+      - app_network
+    command: [ "sh", "-c", "npm install && npx prisma migrate deploy && npm run dev" ]  
+
+  db:
+    image: postgres
+    container_name: my_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: mydatabase
+    ports:
+      - "6004:5432"  
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  pg_data:

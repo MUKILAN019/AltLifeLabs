@@ -1,6 +1,6 @@
 import express from 'express';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from "bcryptjs";
 import prisma from '../prismaClient.js';
 import verifyToken from "../middlewares/authMiddleware.js";
 import { logMessage, logError } from '../utils/logger.js';
