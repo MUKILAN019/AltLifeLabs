@@ -1,0 +1,146 @@
+[2025-02-26 00:33:37] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:33:38] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 00:33:47] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:33:47] [INFO] [/check Route] - User logged in successfully
+[2025-02-26 00:33:50] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 00:33:50] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 00:33:50] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 00:33:50] [INFO] [/books Route] - Fetching all books
+[2025-02-26 00:33:50] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 00:33:56] [INFO] [/borrow/pending Route] - Fetching pending borrow requests
+[2025-02-26 00:33:58] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 00:33:58] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 00:33:58] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 00:33:58] [INFO] [/books Route] - Fetching all books
+[2025-02-26 00:33:58] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 00:33:59] [INFO] [/borrow/details Route] - Fetching user borrow details
+[2025-02-26 00:34:01] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 00:34:01] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 00:34:01] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 00:34:01] [INFO] [/books Route] - Fetching all books
+[2025-02-26 00:34:01] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 00:34:02] [INFO] [/status Route] - Fetching membership status
+[2025-02-26 00:36:41] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:36:42] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 00:36:43] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:36:43] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 00:38:19] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:38:19] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 00:38:24] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:38:25] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 00:38:27] [INFO] [/check Route] - Login attempt started
+[2025-02-26 00:38:27] [WARN] [/check Route] - Invalid credentials
+[2025-02-26 09:55:56] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:55:59] [INFO] [/check Route] - User logged in successfully
+[2025-02-26 09:56:01] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 09:56:01] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 09:56:01] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 09:56:01] [INFO] [/books Route] - Fetching all books
+[2025-02-26 09:56:01] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 09:56:07] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 09:56:07] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 09:56:07] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 09:56:07] [INFO] [/books Route] - Fetching all books
+[2025-02-26 09:56:07] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 09:56:29] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:56:30] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:56:40] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:56:40] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:56:48] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:56:48] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:57:04] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:57:04] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:57:11] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:57:12] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:57:42] [INFO] [/check Route] - Login attempt started
+[2025-02-26 09:57:42] [INFO] [/check Route] - User logged in successfully
+[2025-02-26 09:57:45] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 09:57:45] [INFO] [/books Route] - Fetching all books
+[2025-02-26 09:57:45] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 09:57:45] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 09:57:45] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:18:17] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:18:17] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:18:17] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:18:17] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:18:17] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:18:21] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:18:21] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:18:21] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:18:21] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:18:21] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:18:41] [INFO] [/check Route] - Login attempt started
+[2025-02-26 11:18:41] [INFO] [/check Route] - User logged in successfully
+[2025-02-26 11:18:42] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:18:42] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:18:42] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:18:42] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:18:42] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:24:57] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:24:57] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:24:57] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:24:57] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:24:58] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:24:59] [INFO] [/borrow/pending Route] - Fetching pending borrow requests
+[2025-02-26 11:24:59] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:24:59] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:24:59] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:24:59] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:24:59] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:25:01] [INFO] [/borrow/details Route] - Fetching user borrow details
+[2025-02-26 11:25:01] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 11:25:01] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 11:25:01] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 11:25:01] [INFO] [/books Route] - Fetching all books
+[2025-02-26 11:25:01] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 11:25:02] [INFO] [/status Route] - Fetching membership status
+[2025-02-26 13:07:01] [INFO] [/check Route] - Login attempt started
+[2025-02-26 13:07:01] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:13] [INFO] [/check Route] - Login attempt started
+[2025-02-26 13:07:13] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:14] [INFO] [/check Route] - Login attempt started
+[2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:14] [INFO] [/check Route] - Login attempt started
+[2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:49] [INFO] [/check Route] - Login attempt started
+[2025-02-26 13:07:50] [INFO] [/check Route] - User logged in successfully
+[2025-02-26 13:07:51] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 13:07:51] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 13:07:51] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 13:07:51] [INFO] [/books Route] - Fetching all books
+[2025-02-26 13:07:51] [INFO] [/borrow/status Route] - Fetching borrow status
+[2025-02-26 13:07:51] [INFO] [/never-borrow Route] - Fetching books never borrowed
+[2025-02-26 13:07:51] [INFO] [/books Route] - Fetching all books
+[2025-02-26 13:07:51] [INFO] [/outstanding-books Route] - Fetching outstanding books
+[2025-02-26 13:07:51] [INFO] [/top-borrow Route] - Fetching top borrowed books
+[2025-02-26 13:07:51] [INFO] [/borrow/status Route] - Fetching borrow status

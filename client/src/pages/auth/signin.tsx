@@ -37,7 +37,7 @@ const Login: React.FC = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("/user/check", {
+      const res = await fetch("http://localhost:6003/user/check", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

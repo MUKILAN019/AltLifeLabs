@@ -1,0 +1,39 @@
+[2025-02-26 09:56:30] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:56:40] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:56:48] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:57:04] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 09:57:12] [ERROR] [/check Route] - 
+Invalid `prisma.member.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `Mukilan` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. | At: Invalid `prisma.member.findUnique()` invocation:
+[2025-02-26 13:07:01] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:13] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47
+[2025-02-26 13:07:14] [ERROR] [/check Route] - Cannot read properties of undefined (reading 'findUnique') | At: at file:///C:/Users/pavil/Documents/AltLifeLabs/server/routes/memberRoutes.js:63:47

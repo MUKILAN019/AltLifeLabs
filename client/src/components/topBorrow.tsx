@@ -15,7 +15,7 @@ const TopBorrowed: React.FC = () =>{
         const fetchTopBorrowed = async ()=>{
             try {
                 const token = localStorage.getItem("token");
-                const res = await fetch("/query/top-borrow",{
+                const res = await fetch("http://localhost:6003/query/top-borrow",{
                     method:"GET",
                     headers:{
                         "Content-Type":"application/json",

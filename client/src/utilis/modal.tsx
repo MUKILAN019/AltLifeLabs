@@ -11,7 +11,7 @@ const Modal: React.FC = () => {
       const token = localStorage.getItem("token");
       if (!token) return;
 
-      const response = await axios.get("/user/status", {
+      const response = await axios.get("http://localhost:6003/user/status", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -43,7 +43,7 @@ const Modal: React.FC = () => {
       }
 
       const response = await axios.post(
-        "/user/membership",
+        "http://localhost:6003/user/membership",
         { status },
         { headers: { Authorization: `Bearer ${token}` } }
       );

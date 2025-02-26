@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "build": "npm i && npm i --only=dev && npm install --prefix client && npm run build --prefix client"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +17,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "fs": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
-    "prisma": "^6.4.1"
+    "prisma": "^6.4.1",
+    "winston": "^3.17.0"
   }
 }

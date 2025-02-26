@@ -28,7 +28,7 @@ const Home: React.FC = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const response = await fetch("/lib/books", {
+                const response = await fetch("http://localhost:6003/lib/books", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 if (!response.ok) throw new Error("Failed to fetch books");
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
 
         const fetchStatus = async () => {
             try {
-                const response = await fetch("/lib/borrow/status", {
+                const response = await fetch("http://localhost:6003/lib/borrow/status", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 if (!response.ok) throw new Error("Failed to fetch status");
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
 
     const handleRequest = async (book_id: number) => {
         try {
-            const response = await fetch("/lib/borrow", {
+            const response = await fetch("http://localhost:6003/lib/borrow", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

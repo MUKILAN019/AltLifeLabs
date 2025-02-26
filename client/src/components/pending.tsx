@@ -20,7 +20,7 @@ const Pending: React.FC = () =>{
        const fetchPendingReturns =  async ()=>{
          try {
             const token = localStorage.getItem('token');
-            const res = await fetch("/lib/borrow/pending",
+            const res = await fetch("http://localhost:6003/lib/borrow/pending",
                {
                   method:"GET",
                   headers:{

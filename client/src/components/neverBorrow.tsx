@@ -15,7 +15,7 @@ const NeverBorrow: React.FC = () => {
         const fetchNeverBorrow = async () => {
             try {
                 const token = localStorage.getItem("token");
-                const res = await fetch("/query/never-borrow", {
+                const res = await fetch("http://localhost:6003/query/never-borrow", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
